@@ -105,6 +105,7 @@ button{font:inherit}
   .portfolio-grid{grid-template-columns:1fr}.project-large{grid-column:auto}.project-screen{height:360px}.portfolio-heading .text-link{margin-top:5px}
   .about-visual{min-height:450px}.about-frame{height:450px;width:88%}.about-stamp{width:92px;height:92px;font-size:8px}.about-copy h2{font-size:43px}.about-stats{gap:18px}.about-stats strong{font-size:24px}.about-stats span{font-size:8px}
   .contact h2{font-size:40px}.contact-actions{flex-direction:column}.contact-actions .btn{width:100%}
+  .brand img{width:50%}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
 
