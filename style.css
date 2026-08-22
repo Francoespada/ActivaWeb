@@ -16,7 +16,7 @@ button{font:inherit}
 .header{position:fixed;top:0;left:0;width:100%;z-index:100;transition:.4s var(--ease);border-bottom:1px solid transparent}
 .header.scrolled{background:rgba(8,7,13,.78);backdrop-filter:blur(18px);border-color:var(--line)}
 .nav{height:82px;display:flex;align-items:center;justify-content:space-between}
-.brand{display:flex;align-items:center;gap:11px;font:700 14px "Space Grotesk";letter-spacing:.08em}
+.brand{display:flex;align-items:center;justify-content:center;gap:11px;font:700 14px "Space Grotesk";letter-spacing:.08em}
 .brand img{width:70%}
 .brand>span:last-child>span{color:var(--purple-2)}
 .brand-mark{display:grid;place-items:center;width:30px;height:30px;border:1px solid #9a55ff;border-radius:9px;color:#fff;box-shadow:0 0 25px rgba(139,61,255,.25)}
