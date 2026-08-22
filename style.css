@@ -63,7 +63,7 @@ button{font:inherit}
 .status-dot{margin:0 3px 0 1px;background:#8effc1;box-shadow:0 0 0 5px rgba(142,255,193,.08)}
 .marquee-section{overflow:hidden;border-block:1px solid var(--line);background:#0c0a12;padding:16px 0}
 .marquee{display:flex;align-items:center;gap:30px;width:max-content;animation:marquee 28s linear infinite;font:700 12px "Space Grotesk";letter-spacing:.15em;color:#b9afc6}.marquee b{color:#9148ff}
-.section-heading{display:grid;grid-template-columns:1fr .55fr;gap:60px;align-items:end;margin-bottom:55px}.section-heading h2{font:700 clamp(36px,4vw,58px)/1.05 "Space Grotesk";letter-spacing:-.045em;margin-top:18px}.section-heading h2 span{color:#847b8d}.section-heading>p{font-size:14px;color:var(--muted);max-width:410px}
+.section-heading{gap:60px;align-items:end;margin-bottom:55px}.section-heading h2{font:700 clamp(36px,4vw,58px)/1.05 "Space Grotesk";letter-spacing:-.045em;margin-top:18px}.section-heading h2 span{color:#847b8d}.section-heading>p{font-size:14px;color:var(--muted);max-width:410px}
 .services{background:linear-gradient(180deg,#08070d,#0b0911)}
 .services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
 .service-card{position:relative;padding:34px;border:1px solid var(--line);border-radius:20px;background:linear-gradient(145deg,rgba(255,255,255,.035),rgba(255,255,255,.012));min-height:430px;overflow:hidden;transition:.45s var(--ease)}
