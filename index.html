@@ -1,26 +1,40 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-AR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Activa Design | Páginas web que convierten</title>
   <meta name="description" content="Activa Design — Diseño páginas web modernas, profesionales y optimizadas para convertir visitas en clientes.">
   <meta name="theme-color" content="#08070d">
-  <title>Activa Design | Páginas web que convierten</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%238B3DFF'/%3E%3Cstop offset='1' stop-color='%23B66CFF'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='%2308070D'/%3E%3Cpath d='M18 48 32 14l14 34h-8l-3-8h-6l-3 8z' fill='url(%23g)'/%3E%3C/svg%3E">
+  <link rel="canonical" href="https://activa-web-nine.vercel.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_AR">
+  <meta property="og:title" content="Activa Design | Páginas web que convierten">
+  <meta property="og:description" content="Diseño páginas web modernas, rápidas y pensadas para que tu negocio genere clientes.">
+  <meta property="og:url" content="https://activa-web-nine.vercel.app/">
+  <meta property="og:image" content="https://activa-web-nine.vercel.app/assets/img/proyecto-voltaje-1440.webp">
+  <script>document.documentElement.classList.add("js")</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/img/yo-890.webp" imagesrcset="assets/img/yo-450.webp 450w, assets/img/yo-890.webp 890w" imagesizes="(max-width: 600px) 330px, 460px" fetchpriority="high">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"ProfessionalService","name":"Activa Design","description":"Diseño web estratégico para negocios: landing pages, sitios web profesionales y optimización web.","url":"https://activa-web-nine.vercel.app/","areaServed":"AR","address":{"@type":"PostalAddress","addressLocality":"Buenos Aires","addressCountry":"AR"},"founder":{"@type":"Person","name":"Franco Espada"}}
+  </script>
 </head>
 <body>
   <div class="cursor-glow" aria-hidden="true"></div>
 
   <header class="header" id="header">
     <nav class="nav container" aria-label="Navegación principal">
-      <a class="brand" href="#inicio" aria-label="Activa Design inicio">
-        <img src="assets/logo.png" alt="Activa Design">
+      <a class="brand" href="#inicio" aria-label="Activa Design, inicio">
+        <img src="assets/img/logo.webp" alt="Activa Design" width="177" height="89">
       </a>
 
-      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="navMenu">
         <span></span><span></span><span></span>
       </button>
 
@@ -30,62 +44,51 @@
         <a href="#proceso">Proceso</a>
         <a href="#portfolio">Portfolio</a>
         <a href="#sobre-mi">Sobre mí</a>
-        <a class="nav-cta" href="#contacto">Hablemos <span>↗</span></a>
+        <a class="nav-cta" href="#contacto">Hablemos <span aria-hidden="true">↗</span></a>
       </div>
     </nav>
   </header>
 
   <main>
     <section class="hero section" id="inicio">
-      <div class="hero-grid"></div>
-      <div class="hero-orb orb-one"></div>
-      <div class="hero-orb orb-two"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-light" aria-hidden="true"></div>
 
       <div class="container hero-content">
-        <div class="hero-copy reveal">
-          <div class="eyebrow"><span class="pulse"></span>Diseño web estratégico</div>
-          <h1>Tu negocio merece una web que <em>genere clientes.</em></h1>
-          <p class="hero-text">Diseño páginas web modernas, rápidas y pensadas para que tu marca se vea profesional y convierta visitas en oportunidades reales.</p>
+        <div class="hero-copy" data-stagger>
+          <div class="eyebrow" data-reveal><span class="pulse"></span>Diseño web estratégico</div>
+          <h1 data-reveal>Tu negocio merece una web que <em>genere clientes.</em></h1>
+          <p class="hero-text" data-reveal>Diseño páginas web modernas, rápidas y pensadas para que tu marca se vea profesional y convierta visitas en oportunidades reales.</p>
 
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#contacto">Quiero mi página <span>↗</span></a>
-            <a class="btn btn-ghost" href="#portfolio">Ver trabajos <span>↓</span></a>
+          <div class="hero-actions" data-reveal>
+            <a class="btn btn-primary" href="#contacto">Quiero mi página <span aria-hidden="true">↗</span></a>
+            <a class="btn btn-ghost" href="#portfolio">Ver trabajos <span aria-hidden="true">↓</span></a>
           </div>
 
-          <div class="hero-proof">
-            <div class="avatars">
-              <!-- <span>AD</span><span>✓</span><span>+</span> -->
-            </div>
+          <div class="hero-proof" data-reveal>
             <div><strong>Diseño pensado para vender</strong><small>Atención personalizada · Asesoría gratuita</small></div>
           </div>
         </div>
 
-        <div class="hero-visual reveal reveal-delay">
-          <div class="visual-ring"></div>
+        <div class="hero-visual" data-reveal="portrait">
+          <div class="visual-ring" aria-hidden="true"></div>
           <div class="portrait-wrap">
-            <img src="assets/yo.png" alt="Franco, diseñador web de Activa Design">
+            <img src="assets/img/yo-890.webp" srcset="assets/img/yo-450.webp 450w, assets/img/yo-890.webp 890w" sizes="(max-width: 600px) 330px, 460px" width="890" height="1225" alt="Franco, diseñador web de Activa Design" fetchpriority="high" decoding="async">
           </div>
           <div class="floating-card card-top">
-            <span class="mini-icon">✦</span>
+            <span class="mini-icon" aria-hidden="true">✦</span>
             <div><strong>Diseño + estrategia</strong><small>100% personalizado</small></div>
           </div>
           <div class="floating-card card-bottom">
-            <span class="status-dot"></span>
+            <span class="status-dot" aria-hidden="true"></span>
             <div><strong>Tu web, lista para crecer</strong><small>Responsive · rápida · optimizada</small></div>
           </div>
         </div>
       </div>
-
     </section>
 
     <section class="marquee-section" aria-label="Especialidades">
-      <div class="marquee">
-        <span>LANDING PAGES</span><b>✦</b><span>DISEÑO WEB</span><b>✦</b><span>CONVERSIÓN</span><b>✦</b><span>RESPONSIVE</span><b>✦</b>
-        <span>LANDING PAGES</span><b>✦</b><span>DISEÑO WEB</span><b>✦</b><span>CONVERSIÓN</span><b>✦</b><span>RESPONSIVE</span><b>✦</b>
-        <span>LANDING PAGES</span><b>✦</b><span>DISEÑO WEB</span><b>✦</b><span>CONVERSIÓN</span><b>✦</b><span>RESPONSIVE</span><b>✦</b>
-        <span>LANDING PAGES</span><b>✦</b><span>DISEÑO WEB</span><b>✦</b><span>CONVERSIÓN</span><b>✦</b><span>RESPONSIVE</span><b>✦</b>
-        <span>LANDING PAGES</span><b>✦</b><span>DISEÑO WEB</span><b>✦</b><span>CONVERSIÓN</span><b>✦</b><span>RESPONSIVE</span><b>✦</b>
-        <span>LANDING PAGES</span><b>✦</b><span>DISEÑO WEB</span><b>✦</b><span>CONVERSIÓN</span><b>✦</b><span>RESPONSIVE</span><b>✦</b>
+      <div class="marquee" aria-hidden="true">
         <span>LANDING PAGES</span><b>✦</b><span>DISEÑO WEB</span><b>✦</b><span>CONVERSIÓN</span><b>✦</b><span>RESPONSIVE</span><b>✦</b>
         <span>LANDING PAGES</span><b>✦</b><span>DISEÑO WEB</span><b>✦</b><span>CONVERSIÓN</span><b>✦</b><span>RESPONSIVE</span><b>✦</b>
         <span>LANDING PAGES</span><b>✦</b><span>DISEÑO WEB</span><b>✦</b><span>CONVERSIÓN</span><b>✦</b><span>RESPONSIVE</span><b>✦</b>
@@ -93,117 +96,148 @@
         <span>LANDING PAGES</span><b>✦</b><span>DISEÑO WEB</span><b>✦</b><span>CONVERSIÓN</span><b>✦</b><span>RESPONSIVE</span><b>✦</b>
         <span>LANDING PAGES</span><b>✦</b><span>DISEÑO WEB</span><b>✦</b><span>CONVERSIÓN</span><b>✦</b><span>RESPONSIVE</span><b>✦</b>
       </div>
+      <p class="sr-only">Landing pages, diseño web, conversión y responsive.</p>
     </section>
 
     <section class="section services" id="servicios">
       <div class="container">
-        <div class="section-heading reveal">
-          <div>
-            <span class="section-label">01 / SERVICIOS</span>
-            <h2>Una web bonita está bien.<br><span>Una web que convierte, mejor.</span></h2>
-          </div>
-          <p>Creo experiencias digitales que combinan estética, claridad y estrategia para que tu negocio tenga una presencia online a la altura de lo que ofrece.</p>
+        <div class="section-heading" data-stagger>
+          <span class="section-label" data-reveal>01 / SERVICIOS</span>
+          <h2 data-reveal>Una web bonita está bien.<br><span>Pero, ¿genera clientes?</span></h2>
+          <p data-reveal>Creo experiencias digitales que combinan estética, claridad y estrategia para que tu negocio tenga una presencia online a la altura.</p>
         </div>
 
-        <div class="services-grid">
-          <article class="service-card featured reveal">
+        <div class="services-grid" data-stagger>
+          <article class="service-card " data-reveal>
             <div class="service-number">01</div>
-            <div class="service-icon">↗</div>
-            <h3>Landing pages</h3>
-            <p>Una página enfocada en un objetivo: presentar tu oferta, generar confianza y llevar al visitante a contactarte.</p>
+            <h3>Plan Esencial</h3>
+            <p>Una landing page enfocada en un objetivo: presentar tu oferta, generar confianza y llevar al visitante a contactarte.</p>
             <ul><li>Diseño personalizado</li><li>CTA y WhatsApp</li><li>Responsive</li><li>SEO básico</li></ul>
-            <a href="#contacto">Quiero una landing <span>→</span></a>
+            <a href="#contacto">Quiero una landing <span aria-hidden="true">→</span></a>
           </article>
 
-          <article class="service-card reveal">
+          <article class="service-card featured" data-reveal>
             <div class="service-number">02</div>
-            <div class="service-icon">⌁</div>
-            <h3>Sitios web profesionales</h3>
-            <p>Una presencia digital completa para mostrar tus servicios, diferenciarte y construir autoridad de marca.</p>
+            <h3>Plan Web Pro</h3>
+            <p>Una presencia digital completa. Mostramos tus servicios, diferenciarte y construir autoridad de marca con herramientas interactivas.</p>
             <ul><li>Arquitectura UX/UI</li><li>Secciones a medida</li><li>Animaciones sutiles</li><li>Optimización</li></ul>
-            <a href="#contacto">Potenciar mi marca <span>→</span></a>
+            <a href="#contacto">Potenciar mi marca <span aria-hidden="true">→</span></a>
           </article>
 
-          <article class="service-card reveal">
+          <article class="service-card" data-reveal>
             <div class="service-number">03</div>
-            <div class="service-icon">◈</div>
-            <h3>Optimización web</h3>
+            <h3>Servicios Adicionales</h3>
             <p>Mejoras visuales y técnicas para que tu web cargue mejor, se adapte a móviles y tenga una base SEO sólida.</p>
             <ul><li>Velocidad</li><li>Responsive</li><li>SEO on-page</li><li>UX y conversión</li></ul>
-            <a href="#contacto">Mejorar mi web <span>→</span></a>
+            <a href="#contacto">Mejorar mi web <span aria-hidden="true">→</span></a>
           </article>
         </div>
       </div>
     </section>
 
     <section class="section manifesto">
-      <div class="container manifesto-inner reveal">
-        <span class="section-label">02 / FILOSOFÍA</span>
-        <blockquote>“No diseño páginas para llenar internet. <span>Diseño herramientas para que tu negocio avance.</span>”</blockquote>
-        <div class="manifesto-line"></div>
+      <div class="container manifesto-inner" data-stagger>
+        <span class="section-label" data-reveal>02 / FILOSOFÍA</span>
+        <blockquote data-reveal>“No diseño páginas para llenar internet. <span>Diseño herramientas para que tu negocio avance.</span>”</blockquote>
+        <div class="manifesto-line" data-reveal="line"></div>
       </div>
     </section>
 
     <section class="section process" id="proceso">
       <div class="container">
-        <div class="section-heading reveal">
-          <div>
-            <span class="section-label">03 / PROCESO</span>
-            <h2>De una idea a una web<br><span>que representa tu negocio.</span></h2>
-          </div>
-          <p>Un proceso simple y transparente. Vos aportás la visión de tu negocio; yo me encargo de convertirla en una experiencia digital.</p>
+        <div class="section-heading" data-stagger>
+          <span class="section-label" data-reveal>03 / PROCESO</span>
+          <h2 data-reveal>De una idea a una web<br><span>que representa tu negocio.</span></h2>
+          <p data-reveal>Un proceso simple y transparente. Vos aportás la visión de tu negocio; yo me encargo de convertirla en una experiencia digital.</p>
         </div>
 
-        <div class="process-list">
-          <article class="process-item reveal"><span>01</span><div><h3>Conocemos tu negocio</h3><p>Entiendo qué vendés, a quién te dirigís y qué querés conseguir con tu web.</p></div><b>↗</b></article>
-          <article class="process-item reveal"><span>02</span><div><h3>Diseñamos la experiencia</h3><p>Defino estructura, contenido, jerarquía visual y una identidad coherente con tu marca.</p></div><b>↗</b></article>
-          <article class="process-item reveal"><span>03</span><div><h3>Desarrollo y optimización</h3><p>Construyo la página con foco en responsive, rendimiento, usabilidad y conversión.</p></div><b>↗</b></article>
-          <article class="process-item reveal"><span>04</span><div><h3>Publicamos y acompañamos</h3><p>Dejamos todo listo para que tu negocio tenga una presencia profesional online.</p></div><b>↗</b></article>
+        <div class="process-list" data-stagger>
+          <article class="process-item" data-reveal><span>01</span><div><h3>Conocemos tu negocio</h3><p>Entiendo qué vendés, a quién te dirigís y qué querés conseguir con tu web.</p></div><b aria-hidden="true">↗</b></article>
+          <article class="process-item" data-reveal><span>02</span><div><h3>Diseñamos la experiencia</h3><p>Defino estructura, contenido, jerarquía visual y una identidad coherente con tu marca.</p></div><b aria-hidden="true">↗</b></article>
+          <article class="process-item" data-reveal><span>03</span><div><h3>Desarrollo y optimización</h3><p>Construyo la página con foco en responsive, rendimiento, usabilidad y conversión.</p></div><b aria-hidden="true">↗</b></article>
+          <article class="process-item" data-reveal><span>04</span><div><h3>Publicamos y acompañamos</h3><p>Dejamos todo listo para que tu negocio tenga una presencia profesional online.</p></div><b aria-hidden="true">↗</b></article>
         </div>
       </div>
     </section>
 
     <section class="section portfolio" id="portfolio">
       <div class="container">
-        <div class="section-heading portfolio-heading reveal">
-          <div><span class="section-label">04 / PORTFOLIO</span><h2>Diseño que habla<br><span>antes que vos.</span></h2></div>
-          <p>Una página web que comunica tu mensaje de forma clara y efectiva, con un diseño único y personalizado.</p>
+        <div class="section-heading" data-stagger>
+          <span class="section-label" data-reveal>04 / PORTFOLIO</span>
+          <h2 data-reveal>Diseño que habla<br><span>antes que vos.</span></h2>
+          <p data-reveal>Una página web que comunica tu mensaje de forma clara y efectiva, con un diseño único y personalizado.</p>
         </div>
 
-        <div class="portfolio-grid">
-          <article class="project-card reveal">
-            <div class="project-image">
-              <img src="assets/screen1.png" alt="Landing preview" loading="lazy">
+        <div class="portfolio-grid" data-stagger>
+          <article class="project-card" data-reveal>
+            <div class="project-image" data-reveal="media">
+              <img src="assets/img/proyecto-voltaje-960.webp" srcset="assets/img/proyecto-voltaje-500.webp 500w, assets/img/proyecto-voltaje-960.webp 960w, assets/img/proyecto-voltaje-1440.webp 1440w" sizes="(max-width: 600px) calc(100vw - 28px), (max-width: 900px) 50vw, 380px" width="1440" height="900" alt="Portada de la landing de Voltaje: título en neón lima y foto en blanco y negro de un atleta" loading="lazy" decoding="async">
+            </div>
+            <div class="project-content">
+              <div class="project-kicker">Personal trainer · Landing</div>
+              <h3 class="project-title">Voltaje</h3>
+              <p class="project-desc">Entrenamiento de fuerza en Palermo. Landing oscura en neón lima, con un armador de semana que lleva directo a reservar la clase de prueba.</p>
+              <div class="project-cta"><a class="btn btn-ghost" href="https://voltaje-three.vercel.app/" target="_blank" rel="noopener">Ver proyecto <span aria-hidden="true">↗</span></a></div>
+            </div>
+          </article>
+
+          <article class="project-card" data-reveal>
+            <div class="project-image" data-reveal="media">
+              <img src="assets/img/proyecto-filo-960.webp" srcset="assets/img/proyecto-filo-500.webp 500w, assets/img/proyecto-filo-960.webp 960w, assets/img/proyecto-filo-1440.webp 1440w" sizes="(max-width: 600px) calc(100vw - 28px), (max-width: 900px) 50vw, 380px" width="1440" height="900" alt="Portada de la web de Barbería Filo: título en serif cobre y foto de un corte con máquina" loading="lazy" decoding="async">
+            </div>
+            <div class="project-content">
+              <div class="project-kicker">Barbería · Web con turnos</div>
+              <h3 class="project-title">Barbería Filo</h3>
+              <p class="project-desc">Barbería de autor en Palermo Soho. Cortes de la semana, precios claros y reserva de turno online en pocos pasos.</p>
+              <div class="project-cta"><a class="btn btn-ghost" href="https://barberia-filo-phi.vercel.app/" target="_blank" rel="noopener">Ver proyecto <span aria-hidden="true">↗</span></a></div>
+            </div>
+          </article>
+
+          <article class="project-card" data-reveal>
+            <div class="project-image" data-reveal="media">
+              <img src="assets/img/proyecto-malva-960.webp" srcset="assets/img/proyecto-malva-500.webp 500w, assets/img/proyecto-malva-960.webp 960w, assets/img/proyecto-malva-1440.webp 1440w" sizes="(max-width: 600px) calc(100vw - 28px), (max-width: 900px) 50vw, 380px" width="1440" height="900" alt="Portada de la web de Malva: tratamiento facial en penumbra y un selector de tratamientos" loading="lazy" decoding="async">
+            </div>
+            <div class="project-content">
+              <div class="project-kicker">Estética · Web de servicios</div>
+              <h3 class="project-title">Malva</h3>
+              <p class="project-desc">Cosmetología en Belgrano. Limpieza facial y pestañas, con un selector de tratamientos que te lleva a reservar por WhatsApp.</p>
+              <div class="project-cta"><a class="btn btn-ghost" href="https://malva-six.vercel.app/" target="_blank" rel="noopener">Ver proyecto <span aria-hidden="true">↗</span></a></div>
+            </div>
+          </article>
+
+          <article class="project-card" data-reveal>
+            <div class="project-image" data-reveal="media">
+              <img src="assets/img/proyecto-vive-salud-960.webp" srcset="assets/img/proyecto-vive-salud-500.webp 500w, assets/img/proyecto-vive-salud-960.webp 960w, assets/img/proyecto-vive-salud-1440.webp 1440w" sizes="(max-width: 600px) calc(100vw - 28px), (max-width: 900px) 50vw, 380px" width="1440" height="900" alt="Vista previa de la landing de Vive Salud" loading="lazy" decoding="async">
             </div>
             <div class="project-content">
               <div class="project-kicker">Landing page</div>
               <h3 class="project-title">Diseño enfocado en conversión</h3>
               <p class="project-desc">Landing que transmite. Tu marca digital clara.</p>
-              <div class="project-cta"><a href="https://vive-salud.vercel.app/" target="_blank"><button class="btn btn-ghost">Conocé el proyecto ↗</button></a></div>
+              <div class="project-cta"><a class="btn btn-ghost" href="https://vive-salud.vercel.app/" target="_blank" rel="noopener">Conocé el proyecto <span aria-hidden="true">↗</span></a></div>
             </div>
           </article>
 
-          <article class="project-card reveal">
-            <div class="project-image">
-              <img src="assets/screen2.png" alt="E-commerce preview" loading="lazy">
+          <article class="project-card" data-reveal>
+            <div class="project-image" data-reveal="media">
+              <img src="assets/img/proyecto-termonorte-960.webp" srcset="assets/img/proyecto-termonorte-500.webp 500w, assets/img/proyecto-termonorte-960.webp 960w, assets/img/proyecto-termonorte-1440.webp 1440w" sizes="(max-width: 600px) calc(100vw - 28px), (max-width: 900px) 50vw, 380px" width="1440" height="900" alt="Vista previa de la web de Termonorte" loading="lazy" decoding="async">
             </div>
             <div class="project-content">
               <div class="project-kicker">Web de servicios</div>
               <h3 class="project-title">Contacto directo</h3>
               <p class="project-desc">Web presentación de negocio. Simple, clara y profesional.</p>
-              <div class="project-cta"><a href="https://termonorte.com.ar" target="_blank"><button class="btn btn-ghost">Ver detalles →</button></a></div>
+              <div class="project-cta"><a class="btn btn-ghost" href="https://termonorte.com.ar" target="_blank" rel="noopener">Ver detalles <span aria-hidden="true">↗</span></a></div>
             </div>
           </article>
 
-          <article class="project-card reveal">
-            <div class="project-image">
-              <img src="assets/screen3.png" alt="Web corporativa preview" loading="lazy">
+          <article class="project-card" data-reveal>
+            <div class="project-image" data-reveal="media">
+              <img src="assets/img/proyecto-estudio-norte-960.webp" srcset="assets/img/proyecto-estudio-norte-500.webp 500w, assets/img/proyecto-estudio-norte-960.webp 960w, assets/img/proyecto-estudio-norte-1440.webp 1440w" sizes="(max-width: 600px) calc(100vw - 28px), (max-width: 900px) 50vw, 380px" width="1440" height="900" alt="Vista previa de la web de Estudio Norte, arquitectura" loading="lazy" decoding="async">
             </div>
             <div class="project-content">
               <div class="project-kicker">Web corporativa</div>
               <h3 class="project-title">Identidad + Autoridad</h3>
               <p class="project-desc">Presencia profesional que comunica confianza y autoridad.</p>
-              <div class="project-cta"><a href="https://estudio-norte-two.vercel.app/" target="_blank"><button class="btn btn-ghost">Ver proyecto ↗</button></a></div>
+              <div class="project-cta"><a class="btn btn-ghost" href="https://estudio-norte-two.vercel.app/" target="_blank" rel="noopener">Ver proyecto <span aria-hidden="true">↗</span></a></div>
             </div>
           </article>
         </div>
@@ -212,23 +246,23 @@
 
     <section class="section about" id="sobre-mi">
       <div class="container about-grid">
-        <div class="about-visual reveal">
-          <div class="about-frame">
-            <img src="assets/franco.png" alt="Franco, fundador de Activa Design" loading="lazy">
+        <div class="about-visual">
+          <div class="about-frame" data-reveal="media">
+            <img src="assets/img/franco-864.webp" srcset="assets/img/franco-432.webp 432w, assets/img/franco-864.webp 864w" sizes="(max-width: 600px) 88vw, (max-width: 900px) 560px, 420px" width="864" height="1152" alt="Franco, fundador de Activa Design" loading="lazy" decoding="async">
             <div class="frame-caption"><span>FRANCO ESPADA</span><span>BUENOS AIRES · ARG</span></div>
           </div>
-          <div class="about-stamp"><span>DISEÑO <br>Y<br>CALIDAD</span></div>
+          <div class="about-stamp" data-reveal="stamp" aria-hidden="true"><span>DISEÑO <br>Y<br>CALIDAD</span></div>
         </div>
 
-        <div class="about-copy reveal">
-          <span class="section-label">05 / SOBRE MÍ</span>
-          <h2>Soy Franco.<br><span>Creo Activa Design.</span></h2>
-          <p>Me dedico al diseño y desarrollo de páginas web para emprendedores, profesionales y negocios que quieren dejar de verse “como uno más” en internet.</p>
-          <p>Mi objetivo es unir diseño, tecnología y estrategia para que cada pantalla tenga un motivo: comunicar mejor, generar confianza y acercarte a nuevos clientes.</p>
-          <div class="about-stats">
-            <div><strong data-count="100">0</strong><span> personalizado</span></div>
-            <div><strong data-count="24">0</strong><span>hs de respuesta</span></div>
-            <div><strong data-count="1">0</strong><span>objetivo: hacer crecer tu negocio</span></div>
+        <div class="about-copy" data-stagger>
+          <span class="section-label" data-reveal>05 / SOBRE MÍ</span>
+          <h2 data-reveal>Soy Franco.<br><span>Creo Activa Design.</span></h2>
+          <p data-reveal>Me dedico al diseño y desarrollo de páginas web para emprendedores, profesionales y negocios que quieren dejar de verse “como uno más” en internet.</p>
+          <p data-reveal>Mi objetivo es unir diseño, tecnología y estrategia para que cada pantalla tenga un motivo: comunicar mejor, generar confianza y acercarte a nuevos clientes.</p>
+          <div class="about-stats" data-reveal>
+            <div><strong data-count="100" data-suffix=" %">100 %</strong><span>personalizado</span></div>
+            <div><strong data-count="24">24</strong><span>hs de respuesta</span></div>
+            <div><strong data-count="1">1</strong><span>objetivo: hacer crecer tu negocio</span></div>
           </div>
         </div>
       </div>
@@ -236,15 +270,15 @@
 
     <section class="section contact" id="contacto">
       <div class="container">
-        <div class="contact-card reveal">
-          <span class="section-label">06 / CONTACTO</span>
-          <h2>¿Hacemos que tu negocio<br><em>se vea diferente?</em></h2>
-          <p>Contame qué necesitás y te asesoro sin compromiso sobre la mejor opción para tu proyecto.</p>
-          <div class="contact-actions">
-            <a class="btn btn-primary btn-large" href="https://wa.me/5491168537241" target="_blank" rel="noopener">Hablar por WhatsApp <span>↗</span></a>
-            <a class="btn btn-ghost btn-large" href="mailto:activadesignweb@gmail.com">Enviar un email <span>↗</span></a>
+        <div class="contact-card" data-stagger>
+          <div class="contact-light" aria-hidden="true"></div>
+          <span class="section-label" data-reveal>06 / CONTACTO</span>
+          <h2 data-reveal>¿Hacemos que tu negocio<br><em>se vea diferente?</em></h2>
+          <p data-reveal>Contame qué necesitás y te asesoro sin compromiso sobre la mejor opción para tu proyecto.</p>
+          <div class="contact-actions" data-reveal>
+            <a class="btn btn-primary btn-large" href="https://wa.me/5491168537241?text=Hola%20Franco%2C%20quiero%20una%20web%20para%20mi%20negocio" target="_blank" rel="noopener">Hablar por WhatsApp <span aria-hidden="true">↗</span></a>
           </div>
-          <div class="contact-note"><span class="pulse"></span> Respondo personalmente tus consultas.</div>
+          <div class="contact-note" data-reveal><span class="pulse" aria-hidden="true"></span> Respondo personalmente tus consultas.</div>
         </div>
       </div>
     </section>
@@ -252,13 +286,11 @@
 
   <footer class="footer">
     <div class="container footer-inner">
-      <a class="brand" href="#inicio"><img src="assets/logo.png" alt="Activa Design" style="width: 20%;"></a>
+      <a class="brand" href="#inicio" aria-label="Activa Design, volver al inicio"><img src="assets/img/logo.webp" alt="" width="177" height="89" loading="lazy"></a>
       <p>Diseño web para negocios que quieren crecer.</p>
       <div class="footer-links"><a href="#servicios">Servicios</a><a href="#portfolio">Portfolio</a><a href="#contacto">Contacto</a></div>
-      <small>© <span id="year"></span> Activa Design. Todos los derechos reservados.</small>
+      <small>© <span id="year">2026</span> Activa Design. Todos los derechos reservados.</small>
     </div>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
