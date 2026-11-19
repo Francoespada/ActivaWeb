@@ -172,6 +172,8 @@
     .project-image img{filter:grayscale(100%) contrast(1.03) brightness(.95)}
     .project-card:hover .project-image img,.project-card:focus-within .project-image img{filter:none}
   }
+  .project-badge{position:absolute;top:12px;left:12px;z-index:2;display:inline-flex;align-items:center;gap:7px;padding:5px 10px 5px 9px;border-radius:100px;background:rgba(8,7,13,.82);border:1px solid rgba(255,255,255,.14);color:#F6F2FF;font-size:10px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;line-height:1;pointer-events:none}
+  .project-badge i{width:6px;height:6px;border-radius:50%;background:#B66CFF;box-shadow:0 0 0 3px rgba(182,108,255,.18)}
   .project-content{position:relative;z-index:1;padding:20px 20px 24px;display:flex;flex-direction:column;gap:8px;flex:1;background:linear-gradient(90deg,rgba(139,61,255,.06),transparent)}
   .project-kicker{font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#c28cff}
   .project-title{font:600 21px/1.2 var(--font-display);letter-spacing:-.02em;margin:2px 0}
